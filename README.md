@@ -12,6 +12,7 @@ TOPICTrack proposes a ***parallel association paradigm***, can take full advanta
 
 
 ## News ✨
+* (2025.01) We have updated the accepted version. Please see: [2308.11157v2](https://arxiv.org/abs/2308.11157v2). (the online version is coming soon...)
 * (2024.12) TOPICTrack is accepted by IEEE TIP! 🎊🎊🎊
 * (2024.10) We expanded the dataset by an order of magnitude, renamed it to BEE24, and made it available at: https://drive.google.com/file/d/1KvqQTZWWhyDsQuEIqQY3XLM_8QlYjDqi/view.
 * (2023.08) We provide a complete reproduction tutorial and release the proposed [BEE23](https://drive.google.com/file/d/1kcq3wV-sjr8H_HGNoefaGr_nx7OlVfPo/view) dataset as a new benchmark.
