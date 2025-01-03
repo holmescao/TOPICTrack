@@ -4,7 +4,7 @@ TOPICTrack proposes a ***parallel association paradigm***, can take full advanta
 
 <p align="center"><img src="figs/pipeline.png" width="600"/></p>
 
-> [**TOPIC: A Parallel Association Paradigm for Multi-Object Tracking under Complex Motions and Diverse Scenes**](https://arxiv.org/pdf/2308.11157v1.pdf)
+> [**TOPIC: A Parallel Association Paradigm for Multi-Object Tracking under Complex Motions and Diverse Scenes**](https://arxiv.org/abs/2308.11157v2)
 >
 > Xiaoyan Cao, Yiyao Zheng, Yao Yao, Huapeng Qin, Xiaoyu Cao and Shihui Guo
 >
