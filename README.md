@@ -8,7 +8,7 @@ TOPICTrack proposes a ***parallel association paradigm***, can take full advanta
 >
 > Xiaoyan Cao, Yiyao Zheng, Yao Yao, Huapeng Qin, Xiaoyu Cao and Shihui Guo
 >
-> *[arXiv:2308.11157](https://arxiv.org/abs/2308.11157)*
+> *[arXiv:2308.11157v2](https://arxiv.org/abs/2308.11157v2)*
 
 
 ## News ✨
