@@ -1,0 +1,11 @@
+_BASE_: ../Base-AGW.yml
+
+MODEL:
+  BACKBONE:
+    NAME: build_resnest_backbone
+
+DATASETS:
+  NAMES: ("GMOT",)
+  TESTS: ("GMOT",)
+
+OUTPUT_DIR: logs/GMOT_AGM/GMOT_AGM

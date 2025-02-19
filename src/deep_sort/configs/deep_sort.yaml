@@ -1,0 +1,10 @@
+DEEPSORT:
+  REID_CKPT: "/home/caoxiaoyan/MOTmethods/YOLOTrack/src/deep_sort/deep_sort/deep/checkpoint/ckpt_128x64_bs64.t7"
+  MAX_DIST: 0.3
+  MIN_CONFIDENCE: 0.3
+  NMS_MAX_OVERLAP: 1
+  MAX_IOU_DISTANCE: 0.7
+  MAX_AGE: 1
+  N_INIT: 0
+  NN_BUDGET: 1
+  

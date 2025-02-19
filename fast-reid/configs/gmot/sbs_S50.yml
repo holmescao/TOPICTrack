@@ -1,0 +1,7 @@
+_BASE_: ../Base-SBS.yml
+
+DATASETS:
+  NAMES: ("GMOT",)
+  TESTS: ("GMOT",)
+
+OUTPUT_DIR: logs/GMOT_SBS/GMOT_SBS

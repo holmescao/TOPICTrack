@@ -1,0 +1,1 @@
+python3 demo.py --exp_name bee_test --dataset BEE24 --test_dataset

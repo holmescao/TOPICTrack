@@ -1,0 +1,261 @@
+MotChallenge2DBox
+best_paper_gmot_test_post
+Traceback (most recent call last):
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/eval.py", line 99, in evaluate
+    res[curr_seq] = eval_sequence(
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/eval.py", line 259, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/datasets/_base_dataset.py", line 92, in get_raw_seq_data
+    raw_gt_data = self._load_raw_file(tracker, seq, is_gt=True)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 291, in _load_raw_file
+    raise TrackEvalException(
+trackeval.utils.TrackEvalException: Ground-truth data contains the following invalid timesteps in seq airplane-3: 0, 
+
+
+
+
+
+MotChallenge2DBox
+best_paper_gmot_test_post
+Traceback (most recent call last):
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/eval.py", line 99, in evaluate
+    res[curr_seq] = eval_sequence(
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/eval.py", line 259, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/datasets/_base_dataset.py", line 92, in get_raw_seq_data
+    raw_gt_data = self._load_raw_file(tracker, seq, is_gt=True)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 291, in _load_raw_file
+    raise TrackEvalException(
+trackeval.utils.TrackEvalException: Ground-truth data contains the following invalid timesteps in seq bird-3: 0, 
+
+
+
+
+
+MotChallenge2DBox
+gmot_test_post
+Traceback (most recent call last):
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/eval.py", line 99, in evaluate
+    res[curr_seq] = eval_sequence(
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/eval.py", line 259, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/datasets/_base_dataset.py", line 92, in get_raw_seq_data
+    raw_gt_data = self._load_raw_file(tracker, seq, is_gt=True)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 291, in _load_raw_file
+    raise TrackEvalException(
+trackeval.utils.TrackEvalException: Ground-truth data contains the following invalid timesteps in seq airplane-3: 0, 
+
+
+
+
+
+MotChallenge2DBox
+gmot_test_post
+Traceback (most recent call last):
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/eval.py", line 99, in evaluate
+    res[curr_seq] = eval_sequence(
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/eval.py", line 263, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 471, in get_preprocessed_seq_data
+    raise (
+trackeval.utils.TrackEvalException: Attempting to evaluate using invalid gt classes. This warning only triggers if preprocessing is performed, e.g. not for MOT15 or where prepropressing is explicitly disabled. Please either check your gt data, or disable preprocessing. The following invalid classes were found in timestep 0: -1
+
+
+
+
+
+MotChallenge2DBox
+gmot_test_post
+Traceback (most recent call last):
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/eval.py", line 99, in evaluate
+    res[curr_seq] = eval_sequence(
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/eval.py", line 259, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/datasets/_base_dataset.py", line 92, in get_raw_seq_data
+    raw_gt_data = self._load_raw_file(tracker, seq, is_gt=True)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 291, in _load_raw_file
+    raise TrackEvalException(
+trackeval.utils.TrackEvalException: Ground-truth data contains the following invalid timesteps in seq airplane-3: 0, 
+
+
+
+
+
+MotChallenge2DBox
+gmot_test_post
+Traceback (most recent call last):
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/eval.py", line 99, in evaluate
+    res[curr_seq] = eval_sequence(
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/eval.py", line 259, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/datasets/_base_dataset.py", line 93, in get_raw_seq_data
+    raw_tracker_data = self._load_raw_file(tracker, seq, is_gt=False)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 291, in _load_raw_file
+    raise TrackEvalException(
+trackeval.utils.TrackEvalException: Tracking data contains the following invalid timesteps in seq airplane-3: 0, 
+
+
+
+
+
+MotChallenge2DBox
+gmot_test_post
+Traceback (most recent call last):
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/eval.py", line 99, in evaluate
+    res[curr_seq] = eval_sequence(
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/eval.py", line 259, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/datasets/_base_dataset.py", line 93, in get_raw_seq_data
+    raw_tracker_data = self._load_raw_file(tracker, seq, is_gt=False)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 291, in _load_raw_file
+    raise TrackEvalException(
+trackeval.utils.TrackEvalException: Tracking data contains the following invalid timesteps in seq airplane-3: 0, 
+
+
+
+
+
+MotChallenge2DBox
+gmot_test_post
+Traceback (most recent call last):
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/eval.py", line 99, in evaluate
+    res[curr_seq] = eval_sequence(
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/eval.py", line 259, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/datasets/_base_dataset.py", line 93, in get_raw_seq_data
+    raw_tracker_data = self._load_raw_file(tracker, seq, is_gt=False)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 291, in _load_raw_file
+    raise TrackEvalException(
+trackeval.utils.TrackEvalException: Tracking data contains the following invalid timesteps in seq airplane-3: 0, 
+
+
+
+
+
+MotChallenge2DBox
+gmot_test_post
+Traceback (most recent call last):
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/eval.py", line 99, in evaluate
+    res[curr_seq] = eval_sequence(
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/eval.py", line 263, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 471, in get_preprocessed_seq_data
+    raise (
+trackeval.utils.TrackEvalException: Attempting to evaluate using invalid gt classes. This warning only triggers if preprocessing is performed, e.g. not for MOT15 or where prepropressing is explicitly disabled. Please either check your gt data, or disable preprocessing. The following invalid classes were found in timestep 0: -1
+
+
+
+
+
+MotChallenge2DBox
+gmot_test_post
+Traceback (most recent call last):
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/datasets/_base_dataset.py", line 187, in _load_simple_text_file
+    timestep = str(int(float(row[time_col])))
+ValueError: could not convert string to float: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/datasets/_base_dataset.py", line 232, in _load_simple_text_file
+    raise TrackEvalException(exc_str)
+trackeval.utils.TrackEvalException: In file gt.txt the following line cannot be read correctly: 
+  -1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/eval.py", line 99, in evaluate
+    res[curr_seq] = eval_sequence(
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/eval.py", line 259, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/datasets/_base_dataset.py", line 92, in get_raw_seq_data
+    raw_gt_data = self._load_raw_file(tracker, seq, is_gt=True)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 270, in _load_raw_file
+    read_data, ignore_data = self._load_simple_text_file(
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/datasets/_base_dataset.py", line 237, in _load_simple_text_file
+    raise TrackEvalException(
+trackeval.utils.TrackEvalException: File gt.txt cannot be read because it is either not present or invalidly formatted
+
+
+
+
+
+MotChallenge2DBox
+gmot_test_post
+Traceback (most recent call last):
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/datasets/_base_dataset.py", line 187, in _load_simple_text_file
+    timestep = str(int(float(row[time_col])))
+ValueError: could not convert string to float: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/datasets/_base_dataset.py", line 232, in _load_simple_text_file
+    raise TrackEvalException(exc_str)
+trackeval.utils.TrackEvalException: In file gt.txt the following line cannot be read correctly: 
+  -1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/eval.py", line 99, in evaluate
+    res[curr_seq] = eval_sequence(
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/eval.py", line 259, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/datasets/_base_dataset.py", line 92, in get_raw_seq_data
+    raw_gt_data = self._load_raw_file(tracker, seq, is_gt=True)
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 271, in _load_raw_file
+    read_data, ignore_data = self._load_simple_text_file(
+  File "/remote-home/zhengyiyao/topictrack/external/TrackEval/trackeval/datasets/_base_dataset.py", line 237, in _load_simple_text_file
+    raise TrackEvalException(
+trackeval.utils.TrackEvalException: File gt.txt cannot be read because it is either not present or invalidly formatted
+
+
+
+
+

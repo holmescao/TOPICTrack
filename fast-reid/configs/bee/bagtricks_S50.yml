@@ -1,0 +1,11 @@
+_BASE_: ../Base-bagtricks.yml
+
+MODEL:
+  BACKBONE:
+    NAME: build_resnest_backbone
+
+DATASETS:
+  NAMES: ("BEE",)
+  TESTS: ("BEE",)
+
+OUTPUT_DIR: logs/bee_bagtricks/bee_bagtricks

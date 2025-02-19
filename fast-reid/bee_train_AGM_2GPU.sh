@@ -1,0 +1,1 @@
+python3 tools/train_net.py --config-file ./configs/bee/AGW_S50.yml --num-gpus 2

@@ -1,0 +1,1 @@
+python3 tools/train_net.py --config-file ./configs/gmot/sbs_S50.yml MODEL.DEVICE "cuda:0"

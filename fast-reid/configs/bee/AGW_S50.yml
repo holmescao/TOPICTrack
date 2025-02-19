@@ -1,0 +1,11 @@
+_BASE_: ../Base-AGW.yml
+
+MODEL:
+  BACKBONE:
+    NAME: build_resnest_backbone
+
+DATASETS:
+  NAMES: ("BEE",)
+  TESTS: ("BEE",)
+
+OUTPUT_DIR: logs/BEE_AGM/BEE_AGM

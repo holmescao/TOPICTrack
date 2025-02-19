@@ -1,0 +1,18 @@
+[flake8]
+ignore =
+
+    E261,
+
+    E501,
+
+    E226,
+
+    W293,
+
+    E722,
+
+    W504,
+
+    I001
+max-line-length = 79
+exclude = __init__.py, build, torchreid/metrics/rank_cylib/
