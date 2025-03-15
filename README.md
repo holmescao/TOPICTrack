@@ -11,6 +11,7 @@ TOPICTrack proposes a **_parallel association paradigm_**, can take full advanta
 > _[IEEE TIP](https://ieeexplore.ieee.org/document/10851814)_
 
 ## News ✨
+- (2025.03) Currently reviewing some issues, updates will be available soon~
 - (2025.02) Our ``code`` and ``dataset`` have been invited for publication on the ``wisemodel.cn`` open-source platform. Please see [code](https://wisemodel.cn/codes/holmescao/TOPICTrack/) and [data](https://wisemodel.cn/datasets/holmescao/BEE24/).
 - (2025.02) **a.** Code update from BEE23 to BEE24; fixed some issues; **b.** we will conduct comprehensive testing to ensure the reproducibility of experimental results; **c.** feel free to submit issues~
 - (2025.01) Our paper is online! Please see [IEEE](https://ieeexplore.ieee.org/document/10851814).
